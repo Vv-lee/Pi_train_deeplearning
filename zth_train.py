@@ -146,9 +146,12 @@ def main():
 
     keep_prob = 0.5
     learning_rate = 0.0001
-    nb_epoch = 100
+#     nb_epoch = 100
+    nb_epoch = 10
+#     samples_per_epoch = 3000
     samples_per_epoch = 3000
-    batch_size = 30
+#     batch_size = 30
+    batch_size = 20
 
     print('keep_prob = ', keep_prob)
     print('learning_rate = ', learning_rate)
